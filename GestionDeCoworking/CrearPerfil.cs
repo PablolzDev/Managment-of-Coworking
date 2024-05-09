@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace GestionDeCoworking
 {
-    public partial class frmInicio : Form
+    public partial class frmCrearPerfil : Form
     {
-        public frmInicio()
+        public frmCrearPerfil()
         {
             InitializeComponent();
         }

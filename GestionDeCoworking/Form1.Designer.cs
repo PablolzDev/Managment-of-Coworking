@@ -1,6 +1,6 @@
 ﻿namespace GestionDeCoworking
 {
-    partial class Form1
+    partial class frmInicio
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -29,8 +29,8 @@
         private void InitializeComponent()
         {
             this.lblSeleccion = new System.Windows.Forms.Label();
-            this.lblPerfilCliente = new System.Windows.Forms.Label();
-            this.lblAdministrador = new System.Windows.Forms.Label();
+            this.lblIDCliente = new System.Windows.Forms.Label();
+            this.lblIDAdministrador = new System.Windows.Forms.Label();
             this.txtCliente = new System.Windows.Forms.TextBox();
             this.txtAdministrador = new System.Windows.Forms.TextBox();
             this.btnCrearPerfil = new System.Windows.Forms.Button();
@@ -53,23 +53,23 @@
             this.lblSeleccion.TabIndex = 0;
             this.lblSeleccion.Text = "Selecciones su perfil";
             // 
-            // lblPerfilCliente
+            // lblIDCliente
             // 
-            this.lblPerfilCliente.AutoSize = true;
-            this.lblPerfilCliente.Location = new System.Drawing.Point(47, 35);
-            this.lblPerfilCliente.Name = "lblPerfilCliente";
-            this.lblPerfilCliente.Size = new System.Drawing.Size(81, 16);
-            this.lblPerfilCliente.TabIndex = 1;
-            this.lblPerfilCliente.Text = "Perfil Cliente";
+            this.lblIDCliente.AutoSize = true;
+            this.lblIDCliente.Location = new System.Drawing.Point(47, 35);
+            this.lblIDCliente.Name = "lblIDCliente";
+            this.lblIDCliente.Size = new System.Drawing.Size(64, 16);
+            this.lblIDCliente.TabIndex = 1;
+            this.lblIDCliente.Text = "ID Cliente";
             // 
-            // lblAdministrador
+            // lblIDAdministrador
             // 
-            this.lblAdministrador.AutoSize = true;
-            this.lblAdministrador.Location = new System.Drawing.Point(46, 35);
-            this.lblAdministrador.Name = "lblAdministrador";
-            this.lblAdministrador.Size = new System.Drawing.Size(123, 16);
-            this.lblAdministrador.TabIndex = 2;
-            this.lblAdministrador.Text = "Perfil Administrador";
+            this.lblIDAdministrador.AutoSize = true;
+            this.lblIDAdministrador.Location = new System.Drawing.Point(46, 35);
+            this.lblIDAdministrador.Name = "lblIDAdministrador";
+            this.lblIDAdministrador.Size = new System.Drawing.Size(106, 16);
+            this.lblIDAdministrador.TabIndex = 2;
+            this.lblIDAdministrador.Text = "ID Administrador";
             // 
             // txtCliente
             // 
@@ -96,7 +96,7 @@
             // 
             // txtContraseñaCliente
             // 
-            this.txtContraseñaCliente.Location = new System.Drawing.Point(38, 186);
+            this.txtContraseñaCliente.Location = new System.Drawing.Point(50, 186);
             this.txtContraseñaCliente.Name = "txtContraseñaCliente";
             this.txtContraseñaCliente.Size = new System.Drawing.Size(100, 22);
             this.txtContraseñaCliente.TabIndex = 6;
@@ -128,7 +128,7 @@
             // 
             // groupBoxCliente
             // 
-            this.groupBoxCliente.Controls.Add(this.lblPerfilCliente);
+            this.groupBoxCliente.Controls.Add(this.lblIDCliente);
             this.groupBoxCliente.Controls.Add(this.txtCliente);
             this.groupBoxCliente.Controls.Add(this.lblContraseñaCliente);
             this.groupBoxCliente.Controls.Add(this.txtContraseñaCliente);
@@ -141,7 +141,7 @@
             // 
             // groupBoxAdministrador
             // 
-            this.groupBoxAdministrador.Controls.Add(this.lblAdministrador);
+            this.groupBoxAdministrador.Controls.Add(this.lblIDAdministrador);
             this.groupBoxAdministrador.Controls.Add(this.txtAdministrador);
             this.groupBoxAdministrador.Controls.Add(this.lblContraseñaAdministrador);
             this.groupBoxAdministrador.Controls.Add(this.txtContraseñaAdministrador);
@@ -152,7 +152,7 @@
             this.groupBoxAdministrador.TabStop = false;
             this.groupBoxAdministrador.Text = "Administrador";
             // 
-            // Form1
+            // frmInicio
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -161,8 +161,8 @@
             this.Controls.Add(this.groupBoxCliente);
             this.Controls.Add(this.btnCrearPerfil);
             this.Controls.Add(this.lblSeleccion);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "frmInicio";
+            this.Text = "Iniciar";
             this.groupBoxCliente.ResumeLayout(false);
             this.groupBoxCliente.PerformLayout();
             this.groupBoxAdministrador.ResumeLayout(false);
@@ -175,8 +175,8 @@
         #endregion
 
         private System.Windows.Forms.Label lblSeleccion;
-        private System.Windows.Forms.Label lblPerfilCliente;
-        private System.Windows.Forms.Label lblAdministrador;
+        private System.Windows.Forms.Label lblIDCliente;
+        private System.Windows.Forms.Label lblIDAdministrador;
         private System.Windows.Forms.TextBox txtCliente;
         private System.Windows.Forms.TextBox txtAdministrador;
         private System.Windows.Forms.Button btnCrearPerfil;
